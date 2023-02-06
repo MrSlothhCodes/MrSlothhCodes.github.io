@@ -8,13 +8,13 @@
 input {
     background-color: rgb(79, 79, 96);
     width: 80vw;
-    max-width: 375px;
+    max-width: 300px;
 }
 button {    
     background-color: rgb(79, 79, 96);
     width: 20vw;
-    height: 10vh;   
-    max-width: 90px;
+    max-width: 75px;
+    max-height: 50px;
 }
 .calc {  
     padding: 10px;
