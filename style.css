@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 25px;
     font-family: monospace
+    
 }
 
 table {
@@ -25,11 +26,11 @@ button {
 }
 
 .calc {
-    border: 8px;
-    padding: 23px;
+  
+    padding: 8px;
     display: inline-block;
     background-color: rgb(132, 132, 153);
-    border-radius: 16px;
+
 }
 
 .footer {
