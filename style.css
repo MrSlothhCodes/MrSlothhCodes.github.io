@@ -27,14 +27,12 @@ button {
     display: inline-block;
     background-color: rgb(132, 132, 153);
 }
-a {
+a,h1 {
     color: black;
-    
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 table {
     display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 10px;
-    margin-right: 10px;
 }
