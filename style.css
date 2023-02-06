@@ -1,53 +1,40 @@
 .container {
     text-align: center;
     margin-top: 25px;
-    font-family: monospace
-    
+    font-family: monospace;     
+    align-content: center;
+    justify-content: center;
+                                                   
 }
-
-table {
-
-    margin: auto;
-}
-
 input {
     background-color: rgb(79, 79, 96);
     font-size: 34px;
     width: auto;
     color: rgb(254, 250, 250);
 }
-
 button {
-    font-size: 40px;
+    font-size: 34px;
     background-color: rgb(79, 79, 96);
     color: rgb(255, 255, 255);
-    width: 102px;
-    height: 58px;
+    width: 90px;
+    height: 50px;
+    display:inline-block;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
 }
-
-.calc {
-  
-    padding: 8px;
+.calc {  
+    padding: 10px;
     display: inline-block;
     background-color: rgb(132, 132, 153);
-
 }
-
-.footer {
-    align-content: end;
-    justify-content: end;
-    font-size: 30px;
-}
-
 a {
     color: black;
-    font-style: bold;
+    
 }
-
 table {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
-    margin-right: 25px;
+    margin: 10px;
+    margin-right: 10px;
 }
