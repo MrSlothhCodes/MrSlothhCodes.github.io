@@ -1,38 +1,38 @@
-.container {
+* {
+    font-size: 34px;
+    color: rgb(254, 250, 250);
     text-align: center;
-    margin-top: 25px;
-    font-family: monospace;     
-    align-content: center;
-    justify-content: center;
-                                                   
+    font-family: monospace;
 }
+
 input {
     background-color: rgb(79, 79, 96);
-    font-size: 34px;
-    width: auto;
-    color: rgb(254, 250, 250);
+    width: 95%;
 }
+
 button {
-    font-size: 34px;
     background-color: rgb(79, 79, 96);
-    color: rgb(255, 255, 255);
     width: 90px;
     height: 50px;
-    display:inline-block;
-    margin:0 0.3em 0.3em 0;
-    box-sizing: border-box;
+
+    min-width: fit-content;
 }
-.calc {  
+
+.calc {
     padding: 10px;
     display: inline-block;
     background-color: rgb(132, 132, 153);
+
 }
-a,h1 {
+
+a,
+h1 {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
 table {
-    display: flex;
+
     margin: 10px;
 }
